@@ -17,7 +17,7 @@
 if( defined( 'MEDIAWIKI' ) ) {
 
 	$wgExtensionFunctions[] = 'efPreloader';
-	$wgExtensionCredits['other'][] = array( 'name' => 'Preloader', 'author' => 'Rob Church' );
+	$wgExtensionCredits['other'][] = array( 'name' => 'Preloader', 'author' => 'Rob Church', 'url' => 'http://www.mediawiki.org/wiki/Extension:Preloader' );
 
 	/**
 	 * Sources of preloaded content for each namespace
