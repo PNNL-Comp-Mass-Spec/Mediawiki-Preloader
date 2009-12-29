@@ -42,6 +42,13 @@ $messages['be-tarask'] = array(
 	'preloader-desc' => 'Дадае тыпавыя тэксты для новых старонак, якія магчыма настройваць па прасторах назваў',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'preloader-desc' => 'Pourchas a ra prenestroù testenn personeladus  evit pep esaouenn anv, evit ar pajennoù nevez',
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
@@ -127,6 +134,20 @@ $messages['gsw'] = array(
 	'preloader-desc' => 'Macht s megli pro Namensruum aapassbarei Vorlage zuezfiege bim Aalege vu neje Syte',
 );
 
+/** Hebrew (עברית)
+ * @author Rotemliss
+ */
+$messages['he'] = array(
+	'preloader-desc' => 'אפשרות לתבנית טקסט עבור דפים חדשים, שניתנת להתאמה לפי מרחב שם',
+);
+
+/** Hiligaynon (Ilonggo)
+ * @author Tagimata
+ */
+$messages['hil'] = array(
+	'preloader-desc' => 'Nagahatag sang gin-obra na daan kada-ngalanespasyo boilerplate teksto para sa mga bag-o nga pahina',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
@@ -148,6 +169,20 @@ $messages['ia'] = array(
 	'preloader-desc' => 'Permitte predefinir un modello de texto pro nove paginas, un pro cata spatio de nomines',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Bennylin
+ */
+$messages['id'] = array(
+	'preloader-desc' => 'Menyediakan teks pembuka yang dapat dikustomisasi per ruang nama untuk halaman-halaman baru',
+);
+
+/** Italian (Italiano)
+ * @author Darth Kule
+ */
+$messages['it'] = array(
+	'preloader-desc' => 'Fornisce un testo standard personalizzabile per ciascun namespace per le nuove pagine',
+);
+
 /** Japanese (日本語)
  * @author Fryed-peach
  */
@@ -167,6 +202,13 @@ $messages['ksh'] = array(
  */
 $messages['lb'] = array(
 	'preloader-desc' => 'Erméiglecht et personabiliséierten Text fir nei Säiten pro Nummraum derbäizesetzen',
+);
+
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'preloader-desc' => 'Овозможува кориснички-прилагодлив фиксен текст за нови страници',
 );
 
 /** Marathi (मराठी)
@@ -211,11 +253,26 @@ $messages['oc'] = array(
 	'preloader-desc' => 'Provesís, per las paginas novèlas, de fenèstras de tèxte personalizablas per nom d’espaci',
 );
 
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'preloader-desc' => 'Zapewnia odrębny dla każdej przestrzeni nazw domyślny tekst nowej strony',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'preloader-desc' => 'A dà test përsonalisà për-namespace për neuve pàgine',
+);
+
 /** Portuguese (Português)
+ * @author Hamilton Abreu
  * @author Waldir
  */
 $messages['pt'] = array(
-	'preloader-desc' => 'Fornece textos-modelo para novas páginas, persnonalizáveis por domínio',
+	'preloader-desc' => 'Fornece textos-modelo para novas páginas, personalizáveis por espaço nominal',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
@@ -272,6 +329,13 @@ $messages['te'] = array(
  */
 $messages['tl'] = array(
 	'preloader-desc' => 'Nagbibigay na maipapasadyang pang-bawat espasyo ng pangalang teksto ng pakuluang-bakal para sa bagong mga pahina',
+);
+
+/** Turkish (Türkçe)
+ * @author Vito Genovese
+ */
+$messages['tr'] = array(
+	'preloader-desc' => 'Yeni sayfalar için isim alanına özel kişiselleştirilebilir hazır metinler sunar',
 );
 
 /** Vietnamese (Tiếng Việt)
