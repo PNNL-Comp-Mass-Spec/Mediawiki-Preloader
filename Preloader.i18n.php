@@ -2,7 +2,8 @@
 /**
  * Internationalisation file for Preloader extension.
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  */
 
 $messages = array();
@@ -16,9 +17,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'preloader-desc' => 'Shown in [[Special:Version]] as a short description of this extension. Do not translate links.',
+	'preloader-desc' => '{{desc}}',
 );
 
 /** Arabic (العربية)
@@ -190,7 +192,7 @@ $messages['ja'] = array(
 	'preloader-desc' => '新しいページ用に名前空間ごとのカスタマイズ可能な雛形文章を用意する',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
