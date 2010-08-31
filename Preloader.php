@@ -38,7 +38,7 @@ function efPreloader() {
 
 class Preloader {
 
-	function Preloader() {
+	function __construct() {
 		$this->setHooks();
 	}
 
