@@ -37,7 +37,7 @@ $messages['arz'] = array(
 	'preloader-desc' => 'يوفر نص بويلربلات مخصص لكل نطاق للصفحات الجديدة',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -338,6 +338,13 @@ $messages['tl'] = array(
  */
 $messages['tr'] = array(
 	'preloader-desc' => 'Yeni sayfalar için isim alanına özel kişiselleştirilebilir hazır metinler sunar',
+);
+
+/** Ukrainian (Українська)
+ * @author Alex Khimich
+ */
+$messages['uk'] = array(
+	'preloader-desc' => 'Забезпечення настроюваних за імен по стандартним типовим текстам для нової сторінки',
 );
 
 /** Vietnamese (Tiếng Việt)
