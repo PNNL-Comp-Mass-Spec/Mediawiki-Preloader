@@ -37,6 +37,13 @@ $messages['arz'] = array(
 	'preloader-desc' => 'يوفر نص بويلربلات مخصص لكل نطاق للصفحات الجديدة',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'preloader-desc' => 'Proporciona un testu patrón personalizable por espaciu de nome pa les páxines nueves',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
@@ -218,6 +225,13 @@ $messages['mk'] = array(
  */
 $messages['mr'] = array(
 	'preloader-desc' => 'नवीन पानांसाठी बदलता येण्याजोगी नामविश्व बॉइलरप्लेट देते',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'preloader-desc' => 'Menyediakan teks plat dandang seruang nama yang boleh disuaikan untuk laman baru',
 );
 
 /** Low German (Plattdüütsch)
