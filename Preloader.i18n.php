@@ -37,35 +37,35 @@ $messages['arz'] = array(
 	'preloader-desc' => 'يوفر نص بويلربلات مخصص لكل نطاق للصفحات الجديدة',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
 	'preloader-desc' => 'Proporciona un testu patrón personalizable por espaciu de nome pa les páxines nueves',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
 	'preloader-desc' => 'Дадае тыпавыя тэксты для новых старонак, якія магчыма настройваць па прасторах назваў',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'preloader-desc' => 'Pourchas a ra prenestroù testenn personeladus  evit pep esaouenn anv, evit ar pajennoù nevez',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
 	'preloader-desc' => 'Omogućuje unos po imenskom prostoru prilagodljivih šablona za nove stranice',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Byrial
  */
 $messages['da'] = array(
@@ -79,7 +79,7 @@ $messages['de'] = array(
 	'preloader-desc' => 'Ermöglicht das Hinzufügen pro Namensraum anpassbarer Vorlagen bei der Erstellung neuer Seiten',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -100,21 +100,21 @@ $messages['eo'] = array(
 	'preloader-desc' => 'Provizas ŝanĝeblan norman tekston laŭ nomspaco por novaj paĝoj',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Sanbec
  */
 $messages['es'] = array(
 	'preloader-desc' => 'Provee texto por defecto para las páginas nuevas configurable para cada espacio de nombres',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Mobe
  */
 $messages['fi'] = array(
 	'preloader-desc' => 'Tarjoaa muokattavan nimiavaruuskohtaisen pohjatekstin uusille sivuille.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author Zetud
  */
@@ -122,7 +122,7 @@ $messages['fr'] = array(
 	'preloader-desc' => 'Fournit, pour les nouvelles pages, des fenêtres de texte personnalisables par nom d’espace',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -157,21 +157,21 @@ $messages['hil'] = array(
 	'preloader-desc' => 'Nagahatag sang gin-obra na daan kada-ngalanespasyo boilerplate teksto para sa mga bag-o nga pahina',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
 	'preloader-desc' => 'Dodawa tekstowe elementy za nowe strony přiměrjomne na mjenowy rum',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Tgr
  */
 $messages['hu'] = array(
 	'preloader-desc' => 'Névterenként más-más rendszerüzenet az új oldalakhoz',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -185,7 +185,7 @@ $messages['id'] = array(
 	'preloader-desc' => 'Menyediakan teks pembuka yang dapat dikustomisasi per ruang nama untuk halaman-halaman baru',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -194,9 +194,17 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'preloader-desc' => '新しいページ用に名前空間ごとのカスタマイズ可能な雛形文章を用意する',
+	'preloader-desc' => '新しいページ用に名前空間ごとのカスタマイズ可能な雛形文章を提供する',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'preloader-desc' => '새 문서에 대해 사용자 정의 이름공간마다 상용구를 제공',
 );
 
 /** Colognian (Ripoarisch)
@@ -213,7 +221,7 @@ $messages['lb'] = array(
 	'preloader-desc' => 'Erméiglecht et personabiliséierten Text fir nei Säiten pro Nummraum derbäizesetzen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -234,6 +242,11 @@ $messages['ms'] = array(
 	'preloader-desc' => 'Menyediakan teks plat dandang seruang nama yang boleh disuaikan untuk laman baru',
 );
 
+/** Norwegian Bokmål (norsk (bokmål)‎) */
+$messages['nb'] = array(
+	'preloader-desc' => 'Gir egendefinerbar forhåndslastet tekst for nye sider i de enkelte navnerommene',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -248,28 +261,22 @@ $messages['nl'] = array(
 	'preloader-desc' => "Geeft de mogelijkheid aan te passen per naamruimte tekstblokken te maken voor nieuwe pagina's",
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'preloader-desc' => 'Gjev ein eigendefinerbar førehandslasta tekst for nye sider i dei enkelte namneromma',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['no'] = array(
-	'preloader-desc' => 'Gir egendefinerbar forhåndslastet tekst for nye sider i de enkelte navnerommene',
-);
-
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
 	'preloader-desc' => 'Provesís, per las paginas novèlas, de fenèstras de tèxte personalizablas per nom d’espaci',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -283,7 +290,7 @@ $messages['pms'] = array(
 	'preloader-desc' => 'A dà test përsonalisà për-namespace për neuve pàgine',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Waldir
  */
@@ -291,28 +298,28 @@ $messages['pt'] = array(
 	'preloader-desc' => 'Fornece textos-modelo para novas páginas, personalizáveis por espaço nominal',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'preloader-desc' => 'Fornece textos-modelo para novas páginas, personalizáveis por domínio',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'preloader-desc' => 'Avène ausete pe de le pre-namespace ca sonde personalizzabbele pe le pàggene nueve',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'preloader-desc' => 'Предоставляет настраиваемые по пространствам имён типовые тексты для новых страниц',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -326,7 +333,7 @@ $messages['stq'] = array(
 	'preloader-desc' => 'Moaket dät Bietouföigjen muugelk fon pro Noomensruum anpaasboare Foarloagen bie dät Moakjen fon näie Sieden',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author M.M.S.
  */
 $messages['sv'] = array(
@@ -354,7 +361,7 @@ $messages['tr'] = array(
 	'preloader-desc' => 'Yeni sayfalar için isim alanına özel kişiselleştirilebilir hazır metinler sunar',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Alex Khimich
  */
 $messages['uk'] = array(
