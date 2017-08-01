@@ -1,7 +1,7 @@
 PRELOADER EXTENSION
 
-    Version 1.1.1
-    © 2006 Rob Church
+	Version 1.1.1
+	© 2006 Rob Church
 
 == Overview ==
 
@@ -25,16 +25,17 @@ parse operation.
 
 == 2. Requirements ==
 
-The Preloader extension requires MediaWiki 1.7.0 or later.
+The Preloader extension requires MediaWiki 1.25.0 or later.
 
 == 3. Installation ==
 
 To install the Preloader extension, download all files from Subversion, and
 place them into your extensions directory.
 
-Then edit your LocalSettings.php file and add the following line:
+Then edit your LocalSettings.php file and add 'Preloader' to the extension
+loading call, as follows, with '...' meaning existing extensions:
 
-    require_once( 'extensions/Preloader.php' );
+	wfLoadExtensions( array( ..., 'Preloader', ... ) );
 
 Installation can be verified through the Special:Version page on your wiki.
 
@@ -43,33 +44,29 @@ Installation can be verified through the Special:Version page on your wiki.
 Configuration of the boilerplate sources is done via the $wgPreloaderSource
 configuration variable, which takes the following format:
 
-    $wgPreloaderSource[ <namespace index> ] = PAGE TITLE;
+	$wgPreloaderSource[ <namespace index> ] = PAGE TITLE;
 
 For instance
 
-    $wgPreloaderSource[ NS_MAIN ] = 'Template:Boilerplate';
-    $wgPreloaderSource[ NS_HELP ] = 'Template:Boilerplate help';
+	$wgPreloaderSource[ NS_MAIN ] = 'Template:Boilerplate';
+	$wgPreloaderSource[ NS_HELP ] = 'Template:Boilerplate help';
 
 dictates that the boilerplate text for pages in the main namespace should be
 loaded from Template:Boilerplate, while pages in the Help namespace will be
 preloaded from Template:Boilerplate_help. Other namespaces have no boilerplate
 configured.
 
-== 5. Feedback ==
-
-Please submit comments, suggestions and bug reports to <robchur@gmail.com>.
-
-== 6. Change Log ==
+== 5. Change Log ==
 
 17/12/2006
 Version 1.0
-    * Initial release
+	* Initial release
 
 31/12/2006
 Version 1.1
-    * Trim preloaded text
-    * Fix newlines in <nopreload></nopreload> tags
+	* Trim preloaded text
+	* Fix newlines in <nopreload></nopreload> tags
 
 13/03/2008
 Version 1.1.1
-  * Add description message for [[Special:Version]]
+	* Add description message for [[Special:Version]]

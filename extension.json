@@ -1,0 +1,32 @@
+{
+	"name": "Preloader",
+	"version": "1.1.1",
+	"author": [
+		"Rob Church"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Preloader",
+	"descriptionmsg": "preloader-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses": {
+		"PreloaderHooks": "Preloader.hooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"PreloaderHooks::onParserFirstCallInit"
+		],
+		"EditFormPreloadText": [
+			"PreloaderHooks::onEditFormPreloadText"
+		]
+	},
+	"MessagesDirs": {
+		"Preloader": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Preloader"
+	},
+	"manifest_version": 1
+}
