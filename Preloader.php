@@ -37,7 +37,7 @@ $wgHooks['ParserFirstCallInit'][] = 'Preloader::setParserHook';
 
 class Preloader {
 
-	public static function setParserHook( $parser ) {
+	public static function setParserHook( &$parser ) {
 		$parser->setHook( 'nopreload', array( __CLASS__, 'parserHook' ) );
 		return true;
 	}
@@ -54,8 +54,9 @@ class Preloader {
 	}
 
 	/** Hook function for the parser */
-	public static function parserHook( $input, $args, &$parser ) {
-		$output = $parser->parse( $input, $parser->getTitle(), $parser->getOptions(), false, false );
+	public static function parserHook( $content, $attributes, $parser, $frame ) {
+		$stripped =  preg_replace( '/<\/?nopreload>/s', '', $content );
+		$output = $parser->parse( $stripped, $parser->getTitle(), $parser->getOptions(), false, false );
 		return $output->getText();
 	}
 
