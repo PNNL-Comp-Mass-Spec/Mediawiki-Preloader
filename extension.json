@@ -5,11 +5,10 @@
 		"Rob Church",
 		"Bryson Gibbons"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:Preloader",
+	"url": "https://github.com/PNNL-Comp-Mass-Spec/Mediawiki-Preloader/",
 	"descriptionmsg": "preloader-desc",
 	"license-name": "MIT",
 	"type": "parserhook",
-	"GitHubRepo": "https://github.com/PNNL-Comp-Mass-Spec/Mediawiki-Preloader/",
 	"AutoloadClasses": {
 		"PreloaderHooks": "Preloader.hooks.php"
 	},
