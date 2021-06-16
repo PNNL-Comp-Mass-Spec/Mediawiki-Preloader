@@ -1,4 +1,9 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\RevisionLookup;
+use MediaWiki\Storage\SlotRecord;
+
 /**
  * Hooks for Preloader extension
  *
@@ -67,7 +72,7 @@ class PreloaderHooks {
 	 *
 	 * @param $namespace Namespace to check for
 	 * @return mixed
-	 */ 
+	 */
 	static function preloadSource( $namespace ) {
 		global $wgPreloaderSource;
 		if( isset( $wgPreloaderSource[ $namespace ] ) ) {
@@ -87,8 +92,10 @@ class PreloaderHooks {
 	static function sourceText( $page, &$newTitle ) {
 		$title = Title::newFromText( $page );
 		if( $title && $title->exists() ) {
-			$revision = Revision::newFromTitle( $title );
-			$content = $revision->getContent( Revision::RAW );
+			$revRecord = MediaWikiServices::getInstance()
+				->getRevisionLookup()
+				->getRevisionByTitle( $title, 0, RevisionLookup::READ_LATEST );
+			$content = $revRecord->getContent( SlotRecord::MAIN );
 			$text = ContentHandler::getContentText( $content );
 			return self::transform( $text, $newTitle );
 		} else {
@@ -110,11 +117,10 @@ class PreloaderHooks {
 		$preloadsubst = trim( preg_replace( '/#preload(subst:)/s', '$1', $preloadonly ) );
 
 		// Get and set up a parser for pre-parsing content in "preloadsubst" tags
-		global $wgParser;
-		$parser = $wgParser->getFreshParser();  // Since MW 1.24
-		
-		$parserOptions = is_null( $wgParser->getOptions() ) ? new ParserOptions : $wgParser->getOptions();
-		
+		$parser = MediaWikiServices::getInstance()->getParser();  // Available from MediaWiki 1.32
+
+		$parserOptions = is_null( $parser->getOptions() ) ? new ParserOptions : $parser->getOptions();
+
 		return $parser->preSaveTransform( $preloadsubst, $newTitle, $parserOptions->getUser(), $parserOptions );
 	}
 }
