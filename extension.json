@@ -1,6 +1,6 @@
 {
 	"name": "Preloader",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"author": [
 		"Rob Church",
 		"Bryson Gibbons"
@@ -8,7 +8,8 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:Preloader",
 	"descriptionmsg": "preloader-desc",
 	"license-name": "MIT",
-	"type": "other",
+	"type": "parserhook",
+	"GitHubRepo": "https://github.com/PNNL-Comp-Mass-Spec/Mediawiki-Preloader/",
 	"AutoloadClasses": {
 		"PreloaderHooks": "Preloader.hooks.php"
 	},
