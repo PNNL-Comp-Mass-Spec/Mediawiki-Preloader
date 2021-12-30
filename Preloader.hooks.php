@@ -121,6 +121,6 @@ class PreloaderHooks {
 
 		$parserOptions = is_null( $parser->getOptions() ) ? new ParserOptions : $parser->getOptions();
 
-		return $parser->preSaveTransform( $preloadsubst, $newTitle, $parserOptions->getUser(), $parserOptions );
+		return $parser->preSaveTransform( $preloadsubst, $newTitle, $parserOptions->getUserIdentity(), $parserOptions );
 	}
 }
