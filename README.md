@@ -151,6 +151,9 @@ Contents of file `Template:WeeklyNews`
 
 ### 6. Change Log
 
+##### Version 1.2.2, 2022-12-20, Matthew Monroe
+* Fix usage of deprecated function
+
 ##### Version 1.2.1, 2021-06-16, Matthew Monroe
 * Update for MediaWiki 1.36
   * Replace methods deprecated in 1.32 with MediaWikiServices calls
