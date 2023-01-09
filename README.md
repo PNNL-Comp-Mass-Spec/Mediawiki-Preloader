@@ -151,6 +151,9 @@ Contents of file `Template:WeeklyNews`
 
 ### 6. Change Log
 
+##### Version 1.2.3, 2023-01-09, Matthew Monroe
+* Fix namespace for an included class
+
 ##### Version 1.2.2, 2022-12-20, Matthew Monroe
 * Fix usage of deprecated function
 
