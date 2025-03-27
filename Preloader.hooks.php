@@ -59,7 +59,7 @@ class PreloaderHooks {
 	 * @param Parser $parser
 	 * @param string $value
 	 *
-	 * @return string: text to insert in the page.
+	 * @return string text to insert in the page.
 	 */
 	public static function parserFunctionPreloadSubst( $parser, $value ) {
 		//return htmlspecialchars( $value );
